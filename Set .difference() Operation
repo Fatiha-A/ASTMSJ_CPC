@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+input()
+eng=set(input().split())
+input()
+french=set(input().split())
+print(len(eng.difference(french)))
